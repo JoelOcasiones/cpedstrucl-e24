@@ -185,10 +185,12 @@ int main() {
         scanf("%d", &num);
         search(num);		
         break;
-	  case 6:
+		      
+		      
+      case 6:
 	  	
 	  
-	  case 7:
+      case 7:
 	  
 	  	   
       case 8:
