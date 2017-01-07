@@ -144,7 +144,9 @@ int main() {
     printf("3.Size\n");
     printf("4.Delete\n");
     printf("5.Search\n");
-    printf("6.Exit\n");
+    printf("6.Add After\n");
+    printf("7.Delete All\n");
+    printf("8.Exit\n");
     printf("Enter your choice : ");
     if (scanf("%d", & i) <= 0) {
       printf("Enter only an Integer\n");
@@ -182,8 +184,14 @@ int main() {
       case 5:
         scanf("%d", &num);
         search(num);		
-        break;   
-      case 6:
+        break;
+	  case 6:
+	  	
+	  
+	  case 7:
+	  
+	  	   
+      case 8:
         return 0;
       default:
         printf("Invalid option\n");
